@@ -21,10 +21,14 @@ public class Principal {
         taxi.establecerTarifa();
         
         TransporteTransvia t3 = new TransporteTransvia();
-        
+        t3.establecerCooperativaTransvia("Loja");
+        t3.establecerTarifa();
         TransporteAereo aereo = new TransporteAereo();
-        
+        aereo.establecerCooperativaAereo("Macara");
+        aereo.establecerTarifa();
         TransporteMaritimo mar = new TransporteMaritimo();
+        mar.establecerCooperativaMaritimo("Guayas");
+        mar.establecerTarifa();
         
         ts.add(t3);
         ts.add(aereo);
