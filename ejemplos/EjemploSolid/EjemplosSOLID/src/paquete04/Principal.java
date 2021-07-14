@@ -33,6 +33,7 @@ public class Principal {
         ts.add(t3);
         ts.add(aereo);
         ts.add(mar);
+        ts.add(bus);
         ts.add(taxi);
         
         
