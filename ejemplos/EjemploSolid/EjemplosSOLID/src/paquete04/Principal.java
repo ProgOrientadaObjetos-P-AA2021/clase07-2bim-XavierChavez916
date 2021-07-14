@@ -33,6 +33,8 @@ public class Principal {
         ts.add(t3);
         ts.add(aereo);
         ts.add(mar);
+        ts.add(taxi);
+        
         
         TiposTransporte tipos = new TiposTransporte();
         tipos.establecerTransportes(ts);
