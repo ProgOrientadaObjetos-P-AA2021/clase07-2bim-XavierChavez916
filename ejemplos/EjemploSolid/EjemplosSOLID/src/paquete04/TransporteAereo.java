@@ -7,14 +7,14 @@ package paquete04;
 
 /**
  *
- * @author reroes
+ * @author xavierchavez
  */
-public class TransporteTaxi extends Transporte {
-    private String cooperativaTaxi;
+public class TransporteAereo extends Transporte{
+    private String cooperativaAereo;
     
     
-    public void establecerCooperativaTaxi(String n){
-        cooperativaTaxi = n;
+    public void establecerCooperativaAereo(String n){
+        cooperativaAereo = n;
     }
     
     
@@ -25,7 +25,7 @@ public class TransporteTaxi extends Transporte {
     
     
     public String obtenerCooperativaTaxi(){
-        return cooperativaTaxi;
+        return cooperativaAereo;
     }
         
     
