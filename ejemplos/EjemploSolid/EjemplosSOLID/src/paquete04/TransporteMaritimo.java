@@ -12,7 +12,7 @@ package paquete04;
 public class TransporteMaritimo extends Transporte{
     private String cooperativaMaritimo;
 
-    public void establecerCooperativaBus(String n) {
+    public void establecerCooperativaMaritimo(String n) {
         cooperativaMaritimo = n;
     }
 
@@ -21,7 +21,7 @@ public class TransporteMaritimo extends Transporte{
         tarifa = 2.00 + 0.20;
     }
 
-    public String obtenerCooperativaBus() {
+    public String obtenerCooperativaMaritimo() {
         return cooperativaMaritimo;
     }
 }

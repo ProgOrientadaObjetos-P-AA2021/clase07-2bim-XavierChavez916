@@ -35,7 +35,7 @@ public class Principal {
         
         tipos.establecerPromedioTarifas();
         
-        System.out.printf("Promedio de Tarifas: %.2f", 
+        System.out.printf("Promedio de Tarifas: %.2f\n", 
                 tipos.obtenerPromedioTarifas());
         
     }

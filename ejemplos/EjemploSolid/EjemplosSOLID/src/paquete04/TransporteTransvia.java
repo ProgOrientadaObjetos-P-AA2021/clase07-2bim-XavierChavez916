@@ -24,7 +24,7 @@ public class TransporteTransvia extends Transporte{
     }
     
     
-    public String obtenerCooperativaTaxi(){
+    public String obtenerCooperativaTransvia(){
         return cooperativaTransvia;
     }
         
